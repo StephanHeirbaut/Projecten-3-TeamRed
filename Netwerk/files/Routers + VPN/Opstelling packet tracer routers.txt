@@ -1,0 +1,49 @@
+Projecten3 : Team red windows 
+
+Opstellen netwerk routers:
+
+1 Switch
+4 routers
+
+zie opstelling pkt opstelling routers met Fa poorten.
+
+
+IP routes op pkt naar 172.18.0.0/24 -> gewijzigd naar 172.18.0.0/16
+IP routes op pkt naar 172.16.129.0/24 -> gewijzigd naar 172.16.0.0/16 
+
+-> kan nog altijd pingen tussen 2 pc's door wijzigingen van /24 naar /16
+
+Seriele verbindingen fysieke opstelling -> veranderd in week 10 naar gewone verbindingen en cross-over. Zie nieuwe opstelling.
+
+Oude verbindingen:
+
+/*
+
+Router0 
+-> Serial 0/1/0 naar Serial0/2/0 router2
+-> Fa0/0 naar Linux netwerk
+
+Router1
+-> Serial 0/1/0 naar Serial 0/2/0 router 3		
+-> Fa0/0 naar Windows netwerk
+
+Router2
+-> Serial 0/1/0 naar Serial 0/1/0 router4
+
+Router3
+-> Serial 0/1/1 naar Serial 0/1/1 router 2
+
+Router4
+-> Serial 0/1/1 naar Serial 0/1/0 router 3
+
+*/
+
+
+
+							
+										
+
+
+										 
+										 
+

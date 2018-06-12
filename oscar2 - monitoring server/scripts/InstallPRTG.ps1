@@ -1,0 +1,1 @@
+& "D:\Sandrien\Downloads\prtg\PRTG.exe" /silent /suppressmsgboxes /LANG="Dutch" /accept="yes" /adminemail="sandrien.amourette.w0553@student.hogent.be" /licensekey="000014-2EMKFM-8FFTKT-VQJATZ-ZC5FY9-A8NP66-FY892T-Q41Z6A-RT1WNZ-PGH272" /licensekeyname="prtgtrial"  /noicons

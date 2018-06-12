@@ -1,0 +1,2 @@
+New-NetIPAddress -InterfaceAlias Ethernet -IPAddress 172.18.2.4 -DefaultGateway 172.18.2.1 -PrefixLength 19
+Set-DnsClientServerAddress -InterfaceAlias Ethernet -ServerAddresses 172.18.2.67, 172.18.2.68

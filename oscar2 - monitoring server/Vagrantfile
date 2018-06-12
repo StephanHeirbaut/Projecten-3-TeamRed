@@ -1,0 +1,21 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "mwrock/Windows2012R2"
+  config.vm.provider "hyperv"
+
+  config.vm.provision :shell, path: "scripts/InstallChrome.ps1"
+  config.vm.provision "file", source: "software/PRTG.exe", destination: "C:/Users/vagrant/documents/PRTG.exe"
+  config.vm.provision "file", source: "scripts/configureIp.ps1", destination: "C:/Users/vagrant/documents/configureIp.ps1"
+  config.vm.provision "file", source: "scripts/prtgInstallServer.ps1", destination: "C:/Users/vagrant/documents/prtgInstallServer.ps1"
+  config.vm.provision "file", source: "scripts/prtgInstallAdmin.ps1", destination: "C:/Users/vagrant/documents/prtgInstallAdmin.ps1"
+  config.vm.provision "file", source: "scripts/domain.ps1", destination: "C:/Users/vagrant/documents/domain.ps1"
+  config.vm.provision "file", source: "scripts/admin.ps1", destination: "C:/Users/vagrant/documents/admin.ps1"
+  config.vm.provision "file", source: "templates/BasicTemplateRED.odt", destination: "C:/Program Files (x86)/PRTG Network Monitor/devicetemplates/BasicTemplateRED.odt"
+  config.vm.provision "file", source: "templates/DNSTemplateRED.odt", destination: "C:/Program Files (x86)/PRTG Network Monitor/devicetemplates/DNSTemplateRED.odt"
+  config.vm.provision :shell, path: "scripts/prtgInstallHost.ps1"
+
+  config.vm.provider "hyperv" do |h|
+     h.vmname = "Oscar2_MonitoringServer"
+     h.memory = "8192"
+  end
+
+end

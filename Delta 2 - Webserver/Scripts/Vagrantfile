@@ -1,0 +1,9 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "gusztavvargadr/w16s"
+  config.vm.provider "hyperv" do |h|
+    h.vmname = "WinWebServer16"
+    h.memory = 2048 
+    end
+  config.vm.synced_folder ".", "/vagrant", type: "smb", smb_username: "vagrant", smb_password: "vagrant"
+  config.vm.provision :shell, path: "Delta2.ps1"
+end

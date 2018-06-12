@@ -1,0 +1,2 @@
+[GPO - User Mapping Documentation])(https://technet.microsoft.com/en-us/library/cc770902(v=ws.11).aspx)
+[GPO HowTo - User Mapping](https://blogs.technet.microsoft.com/askds/2009/01/07/using-group-policy-preferences-to-map-drives-based-on-group-membership/)

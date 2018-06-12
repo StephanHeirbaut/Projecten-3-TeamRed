@@ -1,0 +1,57 @@
+﻿@using AjaxEnjQuery.Models.Domain
+@model IEnumerable<AjaxEnjQuery.ViewModels.SessionViewModel>
+
+@{
+    ViewBag.Title = "Hijax - Partial Views";
+}
+@section Scripts{
+    <script src="~/Scripts/CustomScripts/HijaxScripts.js"></script>
+}
+
+<h2>@ViewBag.Title</h2>
+
+<h3>Overview Sessions</h3>
+<div id="sessionList">
+    @Html.Partial("SessionList", Model)
+</div>
+
+<p></p>
+
+<h3>Add a new session</h3>
+@using (Html.BeginForm("Add", "Hijax", FormMethod.Post, new {id="formAdd"}))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <span id="indicator" style="display: none">
+            <img src="@Url.Content("~/Images/load.gif")" alt="loading..." />
+        </span>
+    
+        <div class="form-group">
+            <label class = "control-label col-md-2" for="Name">Name</label>
+            <div class="col-md-10">
+                @Html.TextBox("Name", "",new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Description">Description</label>
+            <div class="col-md-10">
+                @Html.TextBox("Description","",new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Level">Level</label>
+            <div class="col-md-10">
+                @Html.DropDownList("Level", new SelectList(new[] { "--Select a level--" }.Concat(Enum.GetNames(typeof(Level)))), new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Add" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+

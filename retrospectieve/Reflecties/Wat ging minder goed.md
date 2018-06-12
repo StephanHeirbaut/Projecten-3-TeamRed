@@ -1,0 +1,30 @@
+- In ons geval is de installatie van Exchange misgelopen. We hebben niet voorgespeld dat er problemen zouden ontstaan met verschillende versies van Windows Server/Exchange.
+- Daardoor hebben wij meermaals alles opnieuw moeten installeren.
+- Wij hebben ons dan vooral bezig gehouden met het zoeken naar oplossingen.
+- Automatisatie van de monitoring server
+- Het niet af geraken van de **sql**, exchange en sharepoint servers
+- We hebben lang problemen gehad met onze shares. Uiteindelijk hebben we (cedric en ik) dit kunnen oplossen samen met hilmi en patrick. maar hier hebben we wel veel tijd aan verloren. Maar ook veel uit geleerd.
+- De installatie van de clients werkte niet op windows server 2016
+- Workstations uitrollen werkte niet door een vreemd probleem bij het ingeven van het image-path.
+- De bootable usb van meerdere teams werkte niet daarom kon de Windows niet snel geïnstalleerd worden.
+- Eén van onze GPO, namelijk de GPO voor het automatisch toekenen van harde schijf stations aan gebruikers werkt niet. We hebben het verwijderd en opnieuw aangemaakt wat daarna wel werkte.
+- Exchange server en SQL server had een probleem tijdens de installatie. Maar het kan zeker opgelost worden.
+- Het was rustig, maar het kon ook veel ordelijker. We moeten kijken hoe we ervoor kunnen zorgen dat niet iedereen over draden zal moeten springen.
+- Als teams zo goed als klaar zijn met hun deel, gaan ze het in het vervolg sneller moeten duidelijk maken. Op die manier kunnen we deze mensen dan nog bij een team plaatsen dat minder snel vorderingen maakt, of gebruiken als testers.
+- Enkele teams moeten kijken of het echt nodig is dat ze de hele tijd met 2 of 3 personen achter 1 pc blijven zitten. Sommige personen hebben eigenlijk een hele dag zitten kijken wat de persoon naast hem aan het invoeren was op de pc, terwijl er nog andere taken konden gebeuren.
+  - Eenmaal dat alles opgesteld waren, moesten kleine foutjes er uit gehaald worden. Pakt lang/ Frustrerend.
+  - Helemaal in het begin: Iedereen had USB's mee. Wat blijkt: ze werken niet zoals het hoort.
+  - Testing was héél gelimiteerd.
+  - De fileserver Lima2 en wijzelf hebben veel onderling moeten communiceren. Dat is allemaal goed verlopen. We ontbraken echter een kleine stukje documentatie die véél tijd in beslag heeft genomen uiteindelijk.
+- In het begin was het wel beetje zoeken hoe we te werk gingen gaan, zeker omdat het al enige tijd geleden was dat ik een netwerk in elkaar gestoken had. Maar al snel verliep alles vlot en was alles duidelijk voor mij en de groep (deels door kanbanbord voor een overzciht en de inzet van de groep door elkaar te helpen en aan te vullen waar nodig).
+- SSH key dat niet wil werken doordat crypto command niet op routers staat.
+- Internet verbinding die nog niet goed wil werken (trage verbinding).
+-->
+- Het heen en weer lopen tussen alle kabels, we hadden geprobeerd om zo gestructureerd mogelijk te werk te gaan (zie vooral netwerkkabels).
+- Weinig gewerkt aan firewall: ik heb vooral Pieter en Ebu geholpen om verbinding te kunnen maken met het internet en de connectiviteit testen (in het globale netwerk, dus incl. Windows en Linux).
+- Ik had verwacht meer te kunnen doen aan de firewall-configuratie.
+- Wat minder goed ging was het installeren van de Windows Server 2016 op de desktops, dit ging minder vlot bij de meeste groepjes.
+- Wij zijn met ons groepje ook niet verder geraakt dan in de klas omdat je voor het installeren van Sharepoint, een link met een SQL databank nodig hebt.
+- Ons team (Oscar2) moest vooral veel wachten terwijl andere teams non-stop hebben gewerkt. 
+- De installatie van de SQL server, zeker omdat zoveel andere server deze nodig hebben. Het was wat dom om hem op een lokaal account te installeren en dit zou niet mogen gebeurd zijn.
+- Door het vele manuele werk heb ik veel tijd verloren omdat ik ergens een permissie fout ingesteld had, en heel lang niet kon vinden waar de fout lag.

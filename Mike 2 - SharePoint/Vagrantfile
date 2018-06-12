@@ -1,0 +1,16 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "gusztavvargadr/w16s"
+  config.vm.provider "hyperv" do |h|
+    h.vmname = "WinSer16"
+    h.memory = 3072
+	# 1GB-1024 2GB-2048 3GB-3072 4GB-4096 8GB-8192 
+    end
+  config.vm.synced_folder ".", "/vagrant", type: "smb", smb_username: "vagrant", smb_password: "vagrant"
+  config.vm.provision :shell, path: "scripts/nederlands.ps1"
+  config.vm.provision :shell, path: "scripts/1_roleconfig.ps1"
+  config.vm.provision :shell, path: "scripts/2_CopyFiles.ps1"
+  config.vm.provision :shell, path: "scripts/EnableService.bat"
+ # config.vm.provision :shell, path: "scripts/3_InstallPrerequisites.ps1"
+ # config.vm.provision :shell, path: "scripts/4_SharePointSetup.ps1"
+  
+  end

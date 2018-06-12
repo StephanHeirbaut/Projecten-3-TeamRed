@@ -1,0 +1,18 @@
+- Automatisatie hyper-V box
+- Automatisatie installeren Monitoring software
+- ±4 uur 'werkloos' in de middag
+- Voorlopig geen problemen meer voor onze server lima2, maar naar mate we verder gaan automatiseren verwacht ik wel dat we nog verschillende problemen zullen tegenkomen
+-  Met het installeren van de workstations.
+- Met het uitrollen van clients naar server 2016
+- Momenteel hebben we geen problemen. Alles gebeurt bij ons al automatisch wat een grote pluspunt is. 
+- November heeft ervoor gezorgd dat zowel Delta als Mike hun delen niet ten volle hebben kunnen testen. Deze server moet dus meer met aandacht bekeken worden en een hogere prioriteit krijgen tijdens de volgende release.
+- Niet alles kan geautomatiseerd worden in Windows, dat weten we. Toch zullen enkele teams vanaf nu extra aandacht moeten besteden aan automatiseren. Minimale handmatige configuratie is het doel.
+- Charlie heeft eigenlijk de hele tijd gewerkt met een versie die niet werkte op onze domeincontrollers. Dit had sneller moeten gespot worden. Hen bijstaan de komende weken is cruciaal voor het slagen van het project.
+- De internetverbinding zorgde wel wat voor problemen en bedenktijd en paar commando's dat niet werkten op de routers
+- We kunnen dit verbeteren door deze opstelling al eens eenvoudiger op te stellen en al eens een router te configureren voor de evalutie's.
+- Hoe we de site-to-site VPN moeten installeren (zonder gebruik van crypto commands)
+-->
+- We hebben de firewall nog niet volledig kunnen testen, iets wat we hopen te doen in de komende weken (omdat de netwerkconfiguratie enkel nog getest moet worden).
+- Het verbinden met de SQL databank, dit komt komende weken zeker in orde in samenwerking met dat andere groepje.
+- automatisatie van monitoring server
+- Oscar2 zit veel te wachten terwijl anderen werken

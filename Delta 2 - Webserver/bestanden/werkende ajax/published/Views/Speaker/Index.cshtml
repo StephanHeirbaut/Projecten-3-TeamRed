@@ -1,0 +1,23 @@
+﻿@model IEnumerable<AjaxEnjQuery.ViewModels.SpeakerViewModel>
+
+@{
+    ViewBag.Title = "Speakers";
+}
+
+@section Scripts{
+    <script src="~/Scripts/CustomScripts/SpeakerScripts.js"></script>
+}
+<h2>Speakers</h2>
+<div id="summary">
+   <ul id="speakers">
+    @foreach (var item in Model) 
+    {  
+          <li>@Html.ActionLink(item.FullName, "Details", new { id = item.Id},new { @class="details"})</li>
+    }
+  </ul>
+ </div>
+  <div id="speaker">
+  </div>
+  <br style="clear:both" />
+  
+

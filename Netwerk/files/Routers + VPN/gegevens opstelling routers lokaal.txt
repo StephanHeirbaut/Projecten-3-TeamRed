@@ -1,0 +1,34 @@
+Enkele belangijke gegevens voor lokale opstelling:
+
+lokale laptop -> wifi uitzetten , ip-adres wijzigigen in netwerkcentrum + dns server toevoegen
+
+dns server toevoegen (ipv4)
+193.190.173.1
+193.190.173.2
+
+dns server van school gebruiken
+
+Voor router 4 ip adres toewijzen aan Fa0/0 poort -> check details ipv4 adres , dit ip adres toewijzen aan Fa0/0 poort
+
+Indien router al een config heeft eerst resetten
+
+reset router met password:
+terr term -> alt + b
+rommon 1 > confreg 0*242 
+rommon 1 > reset 
+
+reset zonder password:
+enable
+write erase
+reload
+
+Indien we werken met dhcp:
+
+dchp fa0/0 poort
+ip address dhcp 
+no shut
+
+Als men werkt met switch niet vergeten om een default-gateway in te stellen
+
+ip default-gateway ""
+

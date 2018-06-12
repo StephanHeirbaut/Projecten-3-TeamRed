@@ -1,0 +1,31 @@
+Vagrant.configure("2") do |config|
+# General Configuration
+# Configure the correct provisioner using the 'config.vm.provision' method
+	# The first parameter is used to define the type of provisioner
+	# Following that is a key/value for that provisioner
+		# A ruby block is also usable
+	# The key provides the type of script
+		# 'inline' depicts a script written with this Vagrantfile
+		# 'path' depicts an external script
+#  config.vm.provision "shell", path: "./Alfa2.sh"
+ # config.vm.boot_timeout = 10000
+# Declare the box that Vagrant will use;
+  config.vm.box = "gusztavvargadr/w16s"
+  config.vm.provider "hyperv"
+  config.vm.network "public_network"
+# private network
+# Shared folder
+ # config.vm.synced_folder "./data", "/vagrant_data"
+# Configure WinRM
+#config.winrm.host = "localhost"
+  # View the documentation for the provider you are using for more
+  # information on available options.
+
+  # Enable provisioning with a shell script. Additional provisioners such as
+  # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
+  # documentation for more information about their specific syntax and use.
+  # config.vm.provision "shell", inline: <<-SHELL
+  #   apt-get update
+  #   apt-get install -y apache2
+  # SHELL
+end

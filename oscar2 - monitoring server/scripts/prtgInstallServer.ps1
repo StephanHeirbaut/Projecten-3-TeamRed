@@ -1,0 +1,1 @@
+& "C:/Users/vagrant/documents/PRTG.exe" /silent /suppressmsgboxes /LANG="Dutch" /accept="yes" /adminemail="sandrien.amourette.w0553@student.hogent.be" /licensekey="000014-2HJKFM-8FFUTC-FERZR2-8G333Q-TCFG6Z-J24PJ7-DYQRT6-AJVVQG-EY2R8D" /licensekeyname="prtgtrial"  /noicons

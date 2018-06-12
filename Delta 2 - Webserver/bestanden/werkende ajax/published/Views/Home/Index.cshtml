@@ -1,0 +1,41 @@
+﻿@using System.Web.Mvc;
+@{
+    ViewBag.Title = "Ajax";
+}
+
+<h2>Ajax</h2>
+
+<h3>Ajax en jQuery</h3>
+<p>
+    <strong>Click the button to issue an ajax request (.get) to the server: </strong>
+    <br />
+    <button type="button" id="GetMessage">Get the Message</button>
+</p>
+
+<p>
+    <strong>Click the button to issue an ajax request (.getJSON) to the server which returns json: </strong>
+    <br />
+    <button type="button" id="GetJson">Get json using .get</button>
+</p>
+
+<p>
+    <strong>Click the button to issue an ajax request (.ajax) to the server  which returns json: </strong>
+    <br />
+    <button type="button" id="AjaxJson">Get json using .ajax</button>
+</p>
+
+<p>
+    <strong>Click the button to issue an ajax request to the server which returns html: </strong>
+    <br/>
+    <button type="button" id="GetHTML">Get html using .get</button>
+</p>
+
+<p>
+        <input type="search" placeholder="search on name" id="searchTerm" />
+        <input type="button" id="search" name="search " value="Search" />
+</p>
+<div id="result"></div>
+@section scripts
+{
+    <script src="~/Scripts/CustomScripts/AjaxScripts.js"></script>
+}

@@ -1,0 +1,47 @@
+- De organisatie was goed verlopen, wij hadden zowel een fysiseke als een virtuele kanbanboord beschikbaar om het hele proces goed te kunnen volgen.
+- Op voorhand hadden wij ook afgesproken om alle problemen die wij tegenkomen goed te noteren.
+- Wij zijn goed begonnen met de installatie van Windows Server, wat op zich geen problemen zou moeten geven.
+- Vervolgens hebben wij de prerequisites voor de installatie van Windows Exchange geïnstalleerd, wat ook zonder problemen is verlopen.
+- We zijn al ver geraakt
+- Monitoring ging vlot, zonder veel fouten
+- De belangrijkste delen waren zeer vlot klaar
+- De lima2 server is uiteindelijk volledig af geraakt.
+- Een pluim voor Hilmi, omdat hij veel belangrijke taken op zich heeft genomen. Daarnaast is hij ook altijd zeer kalm gebleven wanneer er problemen waren.
+- Ook een pluim voor Laurens, hij heeft alles in goede banen geleid en het team gemotiveerd.
+- Het team communiceerde goed, moeten we zeker meenemen naar de volgende release
+- We zijn verder geraakt dan we gedacht hadden.
+- Sccm en de prereqs werden erg vlot geinstalleerd.
+- Het kanbanbord met post-it's werkte goed.
+- Clients konden geinstalleerd worden op server 2012.
+- We waren goed voorbereid en hebben een groot deel van de opstelling kunnen afwerken. Wij als team Alfa2 en Bravo2 en ik als Kilo2 waren klaar na ongeveer 45 minuten, hierdoor kon iedereen snel verbinding maken en verder gaan met zijn/haar opdracht. 
+- Ik wil iedereen een pluim geven omdat iedereen zeer goed heeft gewerkt. Iedereen heeft gedaan wat hij kon ik dat was top.
+- De kanbanbord via het bord aanpassen was ook een grote pluspunt. Het was overzichtelijk en we wisten wie waar exact stond.
+- Het uitvoeren van de verschillende scripts ging uitzonderlijk goed.
+- De teams die we zoveel weken hadden gemaakt, werkten nog steeds zeer goed samen.
+- Iedereen ging snel mee in het verhaal van de analyse. Iedereen vulde mooi zijn issues aan op bord.
+- De burndown-chart liep bijna volledig gelijk met wat we vooropgesteld hadden.
+- Robin Bauwens testte ieder groepje dat iets op DONE schuifde op bord. Dit verliep vlot.
+- De rust hebben we zeker behouden de hele tijd. Nooit was er echte paniek.
+- Robin Bauwens wil ik persoonlijk bedanken voor mij zo goed bij te staan.
+- De hoofdservers werkte bijna allemaal direct, zodat iedereen snel kon aankoppelen aan zijn nodige buren.
+- Zelf ben ik fier op het team Papa, Lima, Alfa/Bravo en Het team netwerk. Ook ben ik persoonlijk wel fier dat het Kanbanbord zeer vlot werd gebruikt door iedereen.
+  - Niemand heeft opgegeven.
+  - De communicatie tussen Gent en Aalst was top.
+  - Dezelfde vorm van communicatie.
+  - Communiceren.
+  - Elkaar helpen bij problemen.
+  - Geduld hebben.
+  - Iedereen heeft zijn beste voetje voorgezet, dus ze verdienen er allemaal ééntje.
+- Laurens Bracke verdient zeker een pluim voor zijn inzet, de analyse die hij grotendeels op zich nam en om bij iedereen die een probleem had te helpen.
+- De rust in de groep er was weinig of geen stress iedereen bleef kalm en concentreerde zich op zijn werk.
+- Als er een probleem was kwam er wel altijd iemand anders te hulp of met goede raad.
+-->
+- Alle testen konden snel uitgevoerd worden zodat geen enkel team teveel tijd verloor hierbij.
+- Ik heb er mee voor geholpen dat het netwerk toegang tot het internet kon krijgen, waar ik eigenlijk wel verrast van ben. De configuratie hiervan kunnen we dus probleemloos kopiëren op de volgende productie-release, wetende dat alles zou werken.
+- Ik wil zeker Laurens bedanken voor het coördineren en voorbereiden van de eerste demo.
+- De samenwerking tussen alle groepjes onderling is zeer goed verlopen. Laurens Bracke had de leiding op zich genomen, hij had alle groepjes op voorhand 
+- In mijn groepje (Mike2: Sharepoint) was er ook een vlotte samenwerking, er was goede communicatie en als er zich een probleem voordeed,
+- Over het algemeen ging de hele productiedag goed. De oorzaak van alles dat nog niet ging op het einde van de dag was duidelijk aan te tonen. 
+- Bracke mag natuurlijk zeker en vast een dikke pluim krijgen. Zonder hem zouden we zeker niet zover gestaan hebben.
+- We hebben goed samen gewerkt als team, en telkens goed ons kanbanbord geupdate, waardoor altijd duidelijk was wie waar mee bezig was, wat al gedaan werd en wat er nog moest gebeuren. Ook hebben we, ondanks het gebrek aan automatisatie, een verbazend groot deel af kunnen werken.
+- de tijdsschattingen waren ook relatief accuraat. Deze waren enkel zwaar onderschat als er op andere onderdelen gewacht moest worden.

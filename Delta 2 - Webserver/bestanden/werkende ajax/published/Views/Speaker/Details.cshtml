@@ -1,0 +1,29 @@
+﻿@model AjaxEnjQuery.ViewModels.SpeakerViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+@section Scripts
+{
+    <style type="text/css">
+        .speaker img 
+        {
+        	float: left;
+        	margin: 5px;
+        }
+                     
+    </style>
+    }
+
+
+    <h2>Speaker Details: @Model.FullName</h2>
+
+    <p class="speaker">    
+         <img src="@Url.Content("~/Images/Speaker/" + Model.PictureUrl)" title="@Model.FullName" width="300px" height="400px"  alt="Picture speaker"/>       
+        <i>@Model.Bio </i>
+    </p>
+
+    <br style="clear:both" />
+    @Html.ActionLink("Back to speakers", "index")
